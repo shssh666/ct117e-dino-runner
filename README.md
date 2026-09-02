@@ -19,6 +19,8 @@ Chrome 断网小恐龙跑酷，跑在蓝桥杯竞赛板 **CT117E-M4**（STM32G43
 
 1. **装 Keil MDK**（5.x）+ **STM32G4xx DFP 1.2.0** 器件包
    （命令行静默装法：`D:\Keil5\UV4\PackUnzip.exe Keil.STM32G4xx_DFP.1.2.0.pack`）
+> ⚠️ **状态：跑通测试版** —— 本项目只是验证 Dino 能在这块板上跑通的骨架。新的障碍物、背景、计分 UI、速度递增等都还没有实现，代码结构已留好扩展点（`main.c` 游戏状态机 + 精灵表），欢迎你来补全。
+
 2. 双击 `HAL_06_LCD/MDK-ARM/HAL_06_LCD.uvprojx` 打开工程
 3. 编译（F7）→ 下载（F8）→ 按 B1 开始玩
    或命令行：
