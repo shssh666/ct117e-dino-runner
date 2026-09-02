@@ -1,0 +1,5 @@
+*.bak
+*.lst
+*.uvguix.*
+MDK-ARM/DebugConfig/
+MDK-ARM/RTE/
